@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.anticon{
+display: flex;
+justify-content: center;
+}
+@media(min-width:768px){
+body{
+overflow: hidden;
+}
+.categories::-webkit-scrollbar{
+display: none;
+}
+.products::-webkit-scrollbar{
+display: none;
+}
+}
